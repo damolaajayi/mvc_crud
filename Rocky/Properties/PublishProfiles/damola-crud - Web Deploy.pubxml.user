@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVuOYCM/x80SWodDkmb3MPgAAAAACAAAAAAAQZgAAAAEAACAAAACx/ohj5KO40Cjhluj/1q/mvvyCMVmhYW/TWSfDxDkqZQAAAAAOgAAAAAIAACAAAAB4IvQ2ome0wANhFZhr1AlVtSGfExGuW/EAyO6E2RTfDIAAAADMCklCWz4NkOqCIrXW/Quz7V+A8SCeX4Zbv+daOgKgmrNY1dOpwQ2hYoTGK385WO446qCi3a3moKwoXXNJ22ShQvkQpFP/E3UfFg7P6LTFbu0Vav0zeB8sixgLqAhq/5fbIaRwfDBv3apgUbqv4WvbDIjxhsZ9ZipLFNaMEaoQZUAAAAC81QwaIkJ6KPui8x+bvhMpQwzF8gI0GDbIga4fA3Bl/CX/IEu+nZSSP19V54QHOunKfccbb9wAE1+rOyTggLCR</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:damolacruddbserver.database.windows.net,1433%3bInitial Catalog=DamolaCRUD_db%3bUser Id=damolaajayi%40damolacruddbserver%3bPassword=D%40vidbeckham123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Rocky.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:damolacruddbserver.database.windows.net,1433%3bInitial Catalog=DamolaCRUD_db%3bUser Id=damolaajayi%40damolacruddbserver%3bPassword=D%40vidbeckham123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
