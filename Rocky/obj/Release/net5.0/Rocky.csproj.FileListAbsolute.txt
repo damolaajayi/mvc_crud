@@ -437,3 +437,8 @@ C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Rocky.dll
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\ref\Rocky.dll
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Rocky.pdb
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Rocky.genruntimeconfig.cache
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs

@@ -1703,6 +1703,15 @@ C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawes
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.ttf
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.woff
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\fontawesome\webfonts\fa-solid-900.woff2
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\0419bf22-f0e1-4708-8489-2290abfe7a15.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\2fb9a1ea-8d62-408d-aa17-48646514993b.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\3ca04c2f-6bc4-42f4-b86a-30520cf4714b.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\4aa432cf-d18a-4509-b1cb-a3757e78e178.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\58793d42-0fda-4580-a584-2bdb65345eac.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\a08ed9f3-682e-4389-b89e-f9de1b709aa5.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\cbb43154-2b2c-42dc-8a41-962c93428bc7.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\e4282af8-13f2-43cf-ab86-b74c080e3046.jpg
+C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\Images\product\e5396588-26b3-4576-88c3-dfe6d87a5595.jpg
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\js\site.js
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\User\Desktop\Rocky\Rocky\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
