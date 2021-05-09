@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Rocky</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/fontawesome/css/all.css" />
@@ -31,6 +31,8 @@
                         <li class="nav-item">
 
                         </li>
+                        @if (User.IsInRole(WC.AdminRole))
+                        {
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,6 +46,8 @@
                                 <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Create Admin  User</a>
                             </div>
                         </li>
+                        }
+
                         <li>
                             @if (HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart) != null)
                             {

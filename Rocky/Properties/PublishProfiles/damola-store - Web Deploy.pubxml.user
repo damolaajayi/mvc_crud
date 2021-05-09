@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVuOYCM/x80SWodDkmb3MPgAAAAACAAAAAAAQZgAAAAEAACAAAADQP2jGJ4pAsXEpX3RzVThsk5xw6jEZgXXZBKpmzmzk9AAAAAAOgAAAAAIAACAAAAB3VGTJ9zIDjpJ+Zmr/okKvk/zY80pkjzkZeCc9DbnYAoAAAAAbI40F1VJCbdPJblqC/YfdZNieCVm6Iy8RWtDSXKxx0bXkbD0MS7VKF3xmtdE7AlE8q58/gc8+b6hCU2xACuRCYr+nnZvt6pXqBIoWMhZxQ4iIqvQtWdJwpT5JFXRpxiH5IiRPzzDnD90BD06o63FaL0dqIW6iCIk3xhdi6g6uhkAAAADpdT1ypViJfyo9DWQq5OnC8U/5nGYPgsK9Bni0J1CcPJkbimyRkRJhBpFYox0JCwVGarvHEo9ZDtQLJMFsYK8G</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:damolastoredb.database.windows.net,1433%3bInitial Catalog=damola_db%3bUser Id=damola%40damolastoredb%3bPassword=D%40vidbeckham123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

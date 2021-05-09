@@ -72,11 +72,6 @@ namespace Rocky.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if(!await _roleManager.RoleExistsAsync(WC.AdminRole ))
-            {
-                await _roleManager.CreateAsync(new IdentityRole(WC.AdminRole));
-                await _roleManager.CreateAsync(new IdentityRole(WC.CustomerRole));
-            }
 
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -121,7 +116,14 @@ namespace Rocky.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        if (!User.IsInRole(WC.AdminRole))
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                        }
+                        else
+                        {
+                            return RedirectToAction("Index"); 
+                        }
                         return LocalRedirect(returnUrl);
                     }
                 }

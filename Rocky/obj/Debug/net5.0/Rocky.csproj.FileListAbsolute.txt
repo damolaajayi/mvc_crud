@@ -487,3 +487,7 @@ C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_V
 C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
+C:\Users\User\Desktop\Rocky\Rocky\bin\Debug\net5.0\Mailjet.Client.dll
+C:\Users\User\Desktop\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs

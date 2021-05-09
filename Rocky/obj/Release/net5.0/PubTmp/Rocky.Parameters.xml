@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="damola-crud" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="TAA2" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\User\\Desktop\\Rocky\\Rocky\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
-  </parameter>
-  <parameter name="Rocky.Data.ApplicationDbContext" description="" value="Data Source=tcp:damolacruddbserver.database.windows.net,1433;Initial Catalog=DamolaCRUD_db;User Id=damolaajayi@damolacruddbserver;Password=D@vidbeckham123" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\User\\Desktop\\Rocky\\Rocky\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\Rocky\.Data\.ApplicationDbContext\.sql$" />
   </parameter>
 </parameters>

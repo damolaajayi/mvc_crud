@@ -2,11 +2,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Rocky.Data;
+using Rocky.Initializer;
+using Rocky.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +37,8 @@ namespace Rocky
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
+            services.AddTransient<IEmailSender, EmailSender>();
+
 
             services.AddHttpContextAccessor();
             services.AddSession(Options =>
@@ -43,11 +48,12 @@ namespace Rocky
                 Options.Cookie.IsEssential = true;
             });
 
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -65,6 +71,7 @@ namespace Rocky
             app.UseRouting();
             app.UseAuthentication();
 ;           app.UseAuthorization();
+            dbInitializer.Initialize();
             app.UseSession();
             app.UseEndpoints(endpoints =>
             {
